@@ -1,5 +1,5 @@
 # essence-of-integration
-Understanding the working of integration through intuitive derivations and conceptual reconstructions.
+Understanding the working of integration through intuitive derivation and conceptual reconstruction.
 
 # About Me:-
 I'm Sharmin Nabab.
