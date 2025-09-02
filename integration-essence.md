@@ -4,6 +4,7 @@ NOTE-
 1) I'm assuming that anyone reading this is aware of the terminologies such as infinitesimals, first-order infinitesimals, second-order infinitesimals, third-order infinitesimals and hyperreals.
 2) All three of first, second and third order infinitesimals are a part of the hyperreal number system. 
 3) Infinitesimals are not considered to be a part of the real number system.
+
 4)I won't be diving into heavy calculus since the sole purpose of me writing this is to explain the mechanism of calculus, and why it works.
 
 
@@ -14,5 +15,6 @@ Firstly, we can do this by breaking it into concentric circles or thin triangles
 Short version-
 
 Imagine a circle to be made up of infinitely thin infinite rings. When we unfold a ring, it is similar to a rectangle of length one of either of the circles forming a ring. We find the area of this rectangle, neglect the second-order infinitesimals, if any, and then integrate with suitable limits. It comes out to be πr².
+
 
 
