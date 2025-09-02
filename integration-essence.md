@@ -4,11 +4,15 @@ NOTE-
 1) I'm assuming that anyone reading this is aware of the terminologies such as infinitesimals, first-order infinitesimals, second-order infinitesimals, third-order infinitesimals and hyperreals.
 2) All three of first, second and third order infinitesimals are a part of the hyperreal number system. 
 3) Infinitesimals are not considered to be a part of the real number system.
+4) 
 4)I won't be diving into heavy calculus since the sole purpose of me writing this is to explain the mechanism of calculus, and why it works.
 
 
 Long version- 
+
 Firstly, we can do this by breaking it into concentric circles or thin triangles or by using the formula of the area of a sector. I have used the concentric rings method. Imagine a circle to be made up of infinite concentric rings. Now, as they are infinite, the difference between the radii of any two consecutive rings would be infinitely small. We can take a ring and 'unfold' it to form a rectangle. However, it's not actually a rectangle, but the error comes out to be a second-order infinitesimal using the formula for the area of an annular sector. Therefore, we neglect it. Now, the area of the rectangle is the circumference times the difference in radii, which is dr (as (r + dr) - (r) = (dr)). We are taking the length of the strip to be equal to the circumference of the circle with radius r, i.e.,2πr, but it can be argued whether we can take it to be the equal to the circumference of the outer circle with radius (r+dr), i.e. 2πr+dr. That's because, then, we'd get a second-order infinitesimal that we would have neglected anyways. On integrating by varying r from 0 to the radius of our circle, we find that the area is πr². At first, this appears to be approximation, though it's not. That's because if we were to calculate this formula with respect to the hyperreal world, where we don't neglect the second-order infinitesimals, it would have been πr²+ε, where ε is an infinitesimal, a third-order infinitesimal to be precise , which is the result of the integration over the second-order infinitesimals (as, integrating a second order infinitesimal, with respect to a first order infinitesimal, gives a third order infinitesimal). But, as we do not include infinitesimals in the real number system, πr² works for us just fine. As, with respect to the real world, it's the EXACT answer. That right there is the essence of calculus. We approximate with respect to the hyperreal world, which gives us an approximate answer with respect to the hyperreal world, but it is the exact answer with respect to the real world. 
  
 Short version-
+
 Imagine a circle to be made up of infinitely thin infinite rings. When we unfold a ring, it is similar to a rectangle of length one of either of the circles forming a ring. We find the area of this rectangle, neglect the second-order infinitesimals, if any, and then integrate with suitable limits. It comes out to be πr².
+
