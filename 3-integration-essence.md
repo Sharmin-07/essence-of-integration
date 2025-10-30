@@ -19,13 +19,14 @@ The area of the rectangle is the circumference multiplied by the difference in r
 
 Integrating while varying  r  from 0 to  R , we find that the total area is  πR² . At first, this appears to be an approximation, though it isn’t. If we were to calculate this with respect to the hyperreal number system, where second-order infinitesimals are not neglected, the result would be  πR² + ε , where  ε  is a first-order infinitesimal — the result of summing infinitely many second-order infinitesimals. This is justified because, with respect to the hyperreal framework, we're performing summation, not integration.
 
-However, since infinitesimals are not included in the real number system,  πR²  is perfectly exact in the real sense. That is the essence of calculus: we approximate with respect to the hyperreal world, which gives an approximate answer there — but it is an exact answer within the real world.
+However, since infinitesimals are not included in the real number system,  πR²  is perfectly exact in the real sense. That is the essence of calculus: we approximate with respect to the hyperreal world, which gives an approximate answer there — but it is an exact answer within the real world. It is this clever idea behind the invention of calculus which makes it so accurate and revered.
 
 
  
 Short version-
 
 Imagine a circle made up of infinitely many infinitesimally thin rings. When unfolded, each ring resembles a rectangle whose length equals the circumference of one of the circles forming it. We find the area of this rectangle, neglect second-order infinitesimals if any, and then integrate with suitable limits. The result is πR².
+
 
 
 
