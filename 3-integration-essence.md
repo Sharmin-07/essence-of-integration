@@ -25,7 +25,8 @@ However, since infinitesimals are not included in the real number system,  πR²
  
 Short version-
 
-Imagine a circle made up of infinitely many infinitesimally thin rings. When unfolded, each ring resembles a rectangle whose length equals the circumference of one of the circles forming it. We find the area of this rectangle, neglect second-order infinitesimals if any, and then integrate with suitable limits. The result is πr².
+Imagine a circle made up of infinitely many infinitesimally thin rings. When unfolded, each ring resembles a rectangle whose length equals the circumference of one of the circles forming it. We find the area of this rectangle, neglect second-order infinitesimals if any, and then integrate with suitable limits. The result is πR².
+
 
 
 
