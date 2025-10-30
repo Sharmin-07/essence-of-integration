@@ -17,7 +17,7 @@ Take a ring whose outer and inner radii are  r + dr  and  r , respectively, wher
 
 The area of the rectangle is the circumference multiplied by the difference in radii, which is  dr  (since  (r + dr) - r = dr ). The length of the strip is taken to be the circumference of the circle with radius  r , i.e.,  2πr . It can be argued that we could also use the circumference of the outer circle with radius  r + dr , i.e.,  2π (r + dr) , but that would only introduce a second-order infinitesimal, which we would neglect anyway.
 
-Integrating while varying  r  from 0 to  R , we find that the total area is  πR² . At first, this appears to be an approximation, though it isn’t. If we were to calculate this with respect to the hyperreal number system, where second-order infinitesimals are not neglected, the result would be  πR² + ε , where  ε  is a first-order infinitesimal — the result of summing infinitely many second-order infinitesimals. This is justified because, in the hyperreal framework, we perform summation, not integration.
+Integrating while varying  r  from 0 to  R , we find that the total area is  πR² . At first, this appears to be an approximation, though it isn’t. If we were to calculate this with respect to the hyperreal number system, where second-order infinitesimals are not neglected, the result would be  πR² + ε , where  ε  is a first-order infinitesimal — the result of summing infinitely many second-order infinitesimals. This is justified because, with respect to the hyperreal framework, we're performing summation, not integration.
 
 However, since infinitesimals are not included in the real number system,  πR²  is perfectly exact in the real sense. That is the essence of calculus: we approximate with respect to the hyperreal world, which gives an approximate answer there — but it is an exact answer within the real world.
 
@@ -26,6 +26,7 @@ However, since infinitesimals are not included in the real number system,  πR²
 Short version-
 
 Imagine a circle made up of infinitely many infinitesimally thin rings. When unfolded, each ring resembles a rectangle whose length equals the circumference of one of the circles forming it. We find the area of this rectangle, neglect second-order infinitesimals if any, and then integrate with suitable limits. The result is πR².
+
 
 
 
