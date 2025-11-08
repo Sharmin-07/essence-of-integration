@@ -1,32 +1,21 @@
-In this derivation, I will first explain the geometric mechanism behind integration, followed by the justification for why certain approximations are valid. The goal is not computational efficiency but conceptual precision — to understand why integration yields exact results in the real number system despite infinitesimal approximations in the hyperreal framework.
+Long Version :
 
-NOTE-
-1) I’m assuming that anyone reading this is aware of terminologies such as infinitesimals, first-order infinitesimals, second-order infinitesimals, and hyperreals.
-2) Both of first and second order infinitesimals are a part of the hyperreal number system. 
-3) Infinitesimals are not considered to be a part of the real number system.
-4) I won't be diving into heavy calculus since the sole purpose of me writing this is to explain the mechanism of calculus, integration, to be precise.
+A circle can be thought of as a collection of infinitely many infinitesimally thin concentric rings or triangles with a common vertex at the center. Let's take up the concentric rings method and understand how a circle's area arises from its infinitesimal elements.
 
-
-Long version-
-
-We can derive this by breaking the circle into concentric rings, thin triangles, or by using the formula for the area of a sector. I’ll use the concentric rings method.
-
-Imagine a circle of radius  R  made up of infinitely many concentric rings. Since there are infinitely many, the difference between the radii of any two consecutive rings is infinitesimal — denote this difference by  dr .
-
-Take a ring whose outer and inner radii are  r + dr  and  r , respectively, where  R > r + dr > r > 0 . We can take this ring and “unfold” it to form a rectangle. Strictly speaking, it isn’t an exact rectangle, but the error is of second-order infinitesimal magnitude using the formula for the area of an annular sector. Therefore, we neglect it.
-
-The area of the rectangle is the circumference multiplied by the difference in radii, which is  dr  (since  (r + dr) - r = dr ). The length of the strip is taken to be the circumference of the circle with radius  r , i.e.,  2πr . It can be argued that we could also use the circumference of the outer circle with radius  r + dr , i.e.,  2π (r + dr) , but that would only introduce a second-order infinitesimal, which we would neglect anyway.
-
-Integrating while varying  r  from 0 to  R , we find that the total area is  πR² . At first, this appears to be an approximation, though it isn’t. If we were to calculate this with respect to the hyperreal number system, where second-order infinitesimals are not neglected, the result would be  πR² + ε , where  ε  is a first-order infinitesimal — the result of summing infinitely many second-order infinitesimals. This is justified because, with respect to the hyperreal framework, we're performing summation, not integration.
-
-However, since infinitesimals are not included in the real number system,  πR²  is perfectly exact in the real sense. That is the essence of calculus: we approximate with respect to the hyperreal world, which gives an approximate answer there — but it is an exact answer within the real world. It is this clever idea behind the invention of calculus which makes it so accurate and revered.
-
-
+Imagine a circle of radius R to be made up of infinitely many concentric rings. As they are infinite in number, each ring must be of infinitesimal, (i.e., just a little over zero) thickness. Let's call this thickness dr. Note that this thickness is actually the difference in the radii of the outer and inner circles forming a ring. Focus on one ring having inner and outer radii r and r+dr, respectively. On unwrapping or unfolding this ring, we see that it looks almost like a rectangular strip. Therefore, we approximate the area of this strip to be 2πr × dr. One may naturally question why don't we consider the circumference of the outer circle, i.e., the one with radius r+dr, while computing the approximate area of this almost-rectangular strip. We can absolutely take the radius of the outer circle, r+dr, to compute this area and we get :- 
  
-Short version-
+2π(r+dr)•dr = 2πr•dr + 2πr•dr²
 
-Imagine a circle made up of infinitely many infinitesimally thin rings. When unfolded, each ring resembles a rectangle whose length equals the circumference of one of the circles forming it. We find the area of this rectangle, neglect second-order infinitesimals if any, and then integrate with suitable limits. The result is πR².
+However, we neglect the 2πr•dr² term as it is a second-order infinitesimal. A second-order infinitesimal is neglected because, as reasoned by many, it vanishes faster than a first-order infinitesimal and, therefore, has no contribution in the final result. This same fact is also used to argue that our result is error-free, even on neglecting the term 2πr•dr². (Sounds cliché, doesn't it? We'll get to it in a while.) When we integrate 2πr•dr (with respect to dr, of course) for the area of the whole circle, taking the elemental area as that of a ring, with upper and lower limits R and 0, respectively, we get πR².
 
+But what if we do not ignore the error, i.e., the second order infinitesimal? What would it account for? Now, we cannot integrate 2πr × dr² with respect to dr, since that wouldn't make any sense. But we do know that integration is essentially adding up infinitely many infinitesimal elements, and, summing up infinitely many second-order infinitesimals gives a first-order infinitesimal. Therefore, our true “error-free” area of a circle would be πR² + ε, where ε is a first-order infinitesimal. But since we do not consider infinitesimals to be a part of the real number system, we take the area of the circle to be πR², which is EXACT with respect to the real world. However, if we were to derive this formula with respect to the hyperreal world, the exact result would have been πR² + ε, itself, since infinitesimals are, very much, a part of the hyperreal number system, and hence cannot be neglected with respect to the same. That is, πR² is an approximate answer with respect to the hyperreal world.
+
+And that, right there, is the essence of calculus. We approximate with respect to the hyperreal world, to obtain an exact result in the real world. That’s the elegance of it — the reason πR² works perfectly, not despite its approximation, but because of it.
+
+
+Short Version :
+
+Infinitesimals, whether first or second ordered, are not considered to be a part of the real number system, but they are a part of the hyperreal number system. The approximations that we carry out while deriving formulae using integration give us the exact results with respect to the real world since we are approximating with respect to the hyperreal world. πR² is an approximated result with respect to the hyper real world, but it is an exact result with respect to the real world.
 
 
 
