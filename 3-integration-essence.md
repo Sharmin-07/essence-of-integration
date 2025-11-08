@@ -1,6 +1,6 @@
 Long Version :
 
-A circle can be thought of as a collection of infinitely many infinitesimally thin concentric rings or triangles with a common vertex at the center. Let's take up the concentric rings method and understand how a circle's area arises from its infinitesimal elements.
+A circle can be thought of as a collection of infinitely many infinitesimally thin concentric rings or infinitely many infinitesimally thin triangles with a common vertex at the center. Let's take up the concentric rings method and understand how a circle's area arises from its infinitesimal elements.
 
 Imagine a circle of radius R to be made up of infinitely many concentric rings. As they are infinite in number, each ring must be of infinitesimal, (i.e., just a little over zero) thickness. Let's call this thickness dr. Note that this thickness is actually the difference in the radii of the outer and inner circles forming a ring. Focus on one ring having inner and outer radii r and r+dr, respectively. On unwrapping or unfolding this ring, we see that it looks almost like a rectangular strip. Therefore, we approximate the area of this strip to be 2πr × dr. One may naturally question why don't we consider the circumference of the outer circle, i.e., the one with radius r+dr, while computing the approximate area of this almost-rectangular strip. We can absolutely take the radius of the outer circle, r+dr, to compute this area and we get :- 
  
@@ -16,6 +16,7 @@ And that, right there, is the essence of calculus. We approximate with respect t
 Short Version :
 
 Infinitesimals, whether first or second ordered, are not considered to be a part of the real number system, but they are a part of the hyperreal number system. The approximations that we carry out while deriving formulae using integration give us the exact results with respect to the real world since we are approximating with respect to the hyperreal world. πR² is an approximated result with respect to the hyper real world, but it is an exact result with respect to the real world.
+
 
 
 
