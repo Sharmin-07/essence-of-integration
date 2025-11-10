@@ -1,4 +1,4 @@
-Note- The hyperreal world is like an expanded version of the real numbers, where you get not only all the regular numbers you already know (like 1, π, and √2), but also tiny infinitesimal numbers (smaller than any positive real number but still greater than zero) and huge infinite numbers (larger than any real number).
+Note- The hyperreal world is like an expanded version of the real numbers, where you get not only all the regular numbers you already know (like 1, π, and √2), but also tiny infinitesimal numbers (smaller than any positive real number but still greater than zero) and huge, infinite numbers (larger than any real number).
 
 Now, let's begin.
 
@@ -22,6 +22,7 @@ And that, right there, is the essence of calculus. We approximate with respect t
 Short Version :
 
 Infinitesimals, whether first or second ordered, are not considered to be a part of the real number system, but they are a part of the hyperreal number system. The approximations that we carry out while deriving formulae using integration give us the exact results with respect to the real world since we are approximating with respect to the hyperreal world. πR² is an approximated result with respect to the hyper real world, but it is an exact result with respect to the real world.
+
 
 
 
