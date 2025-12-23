@@ -8,6 +8,7 @@ I understood that integrating essentially means adding up infinitely small numbe
 
 This didn’t clear things up as much as it made me feel like we were approximating in mathematics, which made me question why calculus is so revered if it is approximation at its core. So, I did some independent studying and was able to conclude that this all revolves around the essence of integration and how cleverly the inventors of calculus thought. Basically, we use the idea of approximating the value of a quantity or variable with respect to the hyperreal world, which corresponds to its exact value in the real world.
 
+NOTE- I didn't know about Non-Standard Analysis when I wrote this.
 
 
 
