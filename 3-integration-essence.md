@@ -1,6 +1,6 @@
 Note- The hyperreal world is like an extended version of the real numbers, where you get not only all the regular numbers you already know (like 1, π, and √2), but also tiny, infinitesimal numbers (smaller than any positive real number but still greater than zero) and huge, infinite numbers (larger than any real number).
 
-Long Version :
+# Long Version :
 
 A circle can be thought of as a collection of infinitely many infinitesimally thin concentric rings or triangles with a common vertex at the centre. Let's take up the concentric rings method and understand how a circle's area arises from its infinitesimal elements.
 
@@ -17,9 +17,10 @@ But what if we do not ignore the 2π·(dr)² term, i.e., the second order infini
 And that, right there, is the essence of calculus. We approximate with respect to the hyperreal world, to obtain an exact result in the real world. That’s why calculus works so beautifully: an approximation in one world becomes exactness in the other.
 
 
-Short Version :
+# Short Version :
 
 Infinitesimals, whether first or second ordered, are not considered to be a part of the real number system, but they are a part of the hyperreal number system. The approximations that we carry out while deriving formulae using integration give us the exact results with respect to the real world since we are approximating with respect to the hyperreal world. πR² is an approximated result with respect to the hyperreal world, but it is an exact result with respect to the real world.
+
 
 
 
