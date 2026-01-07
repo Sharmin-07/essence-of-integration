@@ -14,12 +14,13 @@ However, we neglect the 2π·(dr)² term as it is a second-order infinitesimal. 
 
 But what if we do not ignore the 2π·(dr)² term, i.e., the second order infinitesimal? What would it account for? Now, we cannot integrate 2π·(dr)² with respect to dr, since 2π·(dr)² is not a valid integrand here. But we do know that integration is essentially adding up infinitely many infinitesimal elements, and, summing up infinitely many second-order infinitesimals gives a quantity which is still smaller than any real number but may or may not be a first-order infinitesimal. Therefore, our true “error-free” area of a circle would be πR² + ε, where ε is an infinitesimal. But since we do not consider infinitesimals to be a part of the real number system, we take the area of the circle to be πR², which is EXACT with respect to the real world. However, if we were to derive this formula with respect to the hyperreal world, the exact result would have been πR² + ε, itself, since infinitesimals are, very much, a part of the hyperreal number system, and hence cannot be neglected with respect to the same. That is, πR² is an approximate answer with respect to the hyperreal world.
 
-And that, right there, is why calculus is exact. We approximate with respect to the hyperreal world, to obtain an exact result in the real world. That’s why calculus works so beautifully: an approximate in one world is exact in the other.
+And that, right there, is why calculus is exact. We approximate with respect to the hyperreal world, to obtain an exact result in the real world. That’s why calculus works so beautifully: an approximate result in one world is exact in the other.
 
 
 # Short Version :
 
 Infinitesimals, whether first or second ordered, are not considered to be a part of the real number system, but they are a part of the hyperreal number system. The approximations that we carry out while deriving formulae using integration give us the exact results with respect to the real world since we are approximating with respect to the hyperreal world. πR² is an approximated result with respect to the hyperreal world, but it is an exact result with respect to the real world.
+
 
 
 
